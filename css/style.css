@@ -1,0 +1,54 @@
+:root {
+  --poppinsFont: 'Poppins',sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Baloo 2', cursive;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.patagonia .patagonia-content {
+  margin: 64px auto;
+  max-width: 217px;
+}
+
+.patagonia-heading{
+  margin: 0 auto;
+  font-family: var(--poppinsFont);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 39.6px;
+  width: 100%;
+  max-width: 182px;
+}
+
+.patagonia-text{
+  
+  width: 100%;
+  min-height: 49px;
+  text-align: center;
+  margin: 27px auto 57px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
