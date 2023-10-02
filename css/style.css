@@ -12,6 +12,7 @@
 
 body {
   font-family: 'Baloo 2', cursive;
+  min-height: 100vh;
 }
 
 .header {
@@ -88,7 +89,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 95vh;
+    min-height: 92vh;
   }
 
   .patagonia .patagonia-content {
