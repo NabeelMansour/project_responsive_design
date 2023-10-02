@@ -1,5 +1,5 @@
 :root {
-  --poppinsFont: 'Poppins',sans-serif;
+  --poppinsFont: 'Poppins', sans-serif;
 }
 
 * {
@@ -16,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 11px;
 }
 
 .header-text {
@@ -28,7 +29,7 @@ body {
   max-width: 217px;
 }
 
-.patagonia-heading{
+.patagonia-heading {
   margin: 0 auto;
   font-family: var(--poppinsFont);
   font-size: 36px;
@@ -38,8 +39,8 @@ body {
   max-width: 182px;
 }
 
-.patagonia-text{
-  
+.patagonia-text {
+
   width: 100%;
   min-height: 49px;
   text-align: center;
@@ -48,7 +49,7 @@ body {
   line-height: 18px;
 }
 
-img{
+img {
   display: block;
   width: 100%;
 }
