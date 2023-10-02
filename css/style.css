@@ -107,7 +107,7 @@ img {
 
   .patagonia-text {
     text-align: center;
-    font-size: 22px;
+    font-size:1.375em;
     line-height: 33px;
     font-family: var(--sourceSansFont);
   }
