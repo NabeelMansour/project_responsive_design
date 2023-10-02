@@ -1,5 +1,7 @@
 :root {
   --poppinsFont: 'Poppins', sans-serif;
+  --sourceSansFont: 'Source Sans 3', sans-serif;
+  --primary-clr: #242635;
 }
 
 * {
@@ -17,6 +19,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 11px;
+  color: var(--primary-clr);
 }
 
 .header-text {
@@ -32,11 +35,12 @@ body {
 .patagonia-heading {
   margin: 0 auto;
   font-family: var(--poppinsFont);
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 500;
   line-height: 39.6px;
   width: 100%;
   max-width: 182px;
+  color: var(--primary-clr);
 }
 
 .patagonia-text {
@@ -46,9 +50,57 @@ body {
   margin: 27px auto 57px;
   font-size: 12px;
   line-height: 18px;
+  color: var(--primary-clr);
 }
 
 img {
   display: block;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 768px;
+    width: 100%;
+    margin-top: 34px;
+  }
+
+  .icon{
+    display: none;
+  }
+
+  .nav-list{
+    display: flex;
+    gap: 30px;
+    font-family: var(--sourceSansFont);
+    color: var(--primary-clr);
+    line-height: 22.4px;
+  }
+
+  .patagonia-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 95vh;
+  }
+
+  .patagonia .patagonia-content {
+    max-width: 574px;
+    min-height: 171px;
+    margin: 0 auto 45px;
+  }
+
+  .patagonia-heading {
+    font-size: 4.5em;
+    width: 100%;
+    max-width: 364px;
+    margin-bottom: 22px;
+  }
+
+  .patagonia-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 33px;
+    font-family: var(--sourceSansFont);
+  }
 }
