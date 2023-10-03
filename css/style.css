@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
 }
 
+/* header */
 .header {
   display: flex;
   align-items: center;
@@ -33,6 +34,7 @@ body {
   display: none;
 }
 
+/* patagonia section */
 .patagonia .patagonia-content {
   margin: 64px auto;
   max-width: 217px;
@@ -57,6 +59,8 @@ body {
   line-height: 18px;
   color: var(--primary-clr);
 }
+
+/* media queries */
 
 @media screen and (min-width: 768px) {
   .wrapper {
@@ -83,7 +87,7 @@ body {
   .patagonia-article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     min-height: 100vh;
   }
 
@@ -118,6 +122,7 @@ body {
   .patagonia-article {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     min-height: 100vh;
   }
 
