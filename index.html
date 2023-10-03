@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Poppins:wght@500&family=Source+Sans+3&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Baloo+2:wght@400;700&family=Poppins:wght@500&family=Source+Sans+3&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
@@ -33,7 +33,7 @@
           <li>About</li>
           <li>Product</li>
           <li>Contact</li>
-      </ul>
+        </ul>
       </nav>
     </header>
     <!-- end of header -->
@@ -48,7 +48,12 @@
           </p>
         </div>
         <div class="img">
-          <img src="./assets/Bitmap.jpg" alt="horses in the dessert" />
+          <picture>
+            <source media="(max-width: 320px)" srcset="./assets/bg-s.jpg" />
+            <source media="(max-width: 768px)" srcset="./assets/bg-m.jpg" />
+            <source media="(min-width: 1024px)" srcset="./assets/bg-l.jpg" />
+            <img src="./assets/bg-s.jpg" alt="horses in the dessert" />
+          </picture>
         </div>
       </article>
     </section>
