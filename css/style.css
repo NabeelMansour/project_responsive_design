@@ -29,7 +29,7 @@ body {
   font-weight: 700;
 }
 
-.nav{
+.nav {
   display: none;
 }
 
@@ -42,7 +42,7 @@ body {
   margin: 0 auto;
   font-family: var(--poppinsFont);
   font-size: 2.25em;
-  font-weight: 500; 
+  font-weight: 500;
   width: 100%;
   max-width: 182px;
   color: var(--primary-clr);
@@ -61,19 +61,18 @@ body {
 @media screen and (min-width: 768px) {
   .wrapper {
     min-width: 768px;
-    width: 90%;
     margin-top: 34px;
   }
 
-  .icon{
+  .icon {
     display: none;
   }
 
-  .nav{
+  .nav {
     display: block;
   }
 
-  .nav-list{
+  .nav-list {
     display: flex;
     gap: 30px;
     font-family: var(--sourceSansFont);
@@ -84,7 +83,7 @@ body {
   .patagonia-article {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     min-height: 100vh;
   }
 
@@ -112,17 +111,17 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .wrapper{
+  .wrapper {
     max-width: 1024px;
-    width: 90%;
   }
 
-  .patagonia-article{
-    justify-content: center;
-    min-height: 80vh;
+  .patagonia-article {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
-  .header-text{
+  .header-text {
     font-family: var(--aldrichFont);
     font-weight: 400;
   }
